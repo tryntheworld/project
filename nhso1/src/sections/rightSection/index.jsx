@@ -1,13 +1,15 @@
+import Announce from "../Announcer";
 import Calendar from "../Calendar";
 import PsnMeet from "../psnMeet";
+import Applications from "../Applications";
+
 const Content =() => { 
   return (
-    <div>
+    <div className="grid gap-y-4">
       <PsnMeet/>
       <Calendar/>
       <Announce/>
-      <div className='mb-96'>โปรแกรม</div>
-      <div className='mb-96'>สื่อ</div>
+      <Applications/>
     </div>
   )
 }

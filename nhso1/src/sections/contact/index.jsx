@@ -2,7 +2,7 @@ const Contact =() => {
         return (
 
             <div>
-                LINK
+                กลุ่มงานประกันสุขภาพ
             </div>
         )
 }
