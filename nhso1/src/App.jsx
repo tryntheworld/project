@@ -1,12 +1,9 @@
 
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './App.css'
-import { faArrowAltCircleRight, faArrowDown, faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import Meeting from './sections/Meeting'
 import Navbar from './sections/Navbar'
 import Contact from './sections/contact'
-import rightSection from './sections/rightSection'
+import rightSections from './sections/rightSection'
 function App() {
   return (
    <div className='mt-14 mx-auto max-w-6xl grid grid-cols-[40%_60%]'>
@@ -14,12 +11,10 @@ function App() {
       <div className='sticky top-14 grid grid-rows[20%_40%_25%] h-[80vh]'>
         <Meeting/>
         <Navbar/>  
-        <Contact/>     
+        <Contact/> 
       </div>
     </div>
 
-    <rightSection/>
-    
    </div>
    
   )

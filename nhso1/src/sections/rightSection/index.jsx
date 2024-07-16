@@ -1,4 +1,4 @@
-const rightSection =() => {
+const rightSections =() => {
  return (
     <div>
       <div className='mb-96'>ปสน.</div>
@@ -9,4 +9,4 @@ const rightSection =() => {
     </div>
  )
 }
-export default rightSection;
+export default rightSections;
