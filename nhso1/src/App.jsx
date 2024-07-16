@@ -1,13 +1,23 @@
-a
+
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './App.css'
-import { faArrowDown, faArrowLeft } from '@fortawesome/free-solid-svg-icons'
-
+import { faArrowAltCircleRight, faArrowDown, faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import Meeting from './sections/Meeting'
 function App() {
   return (
    <div className='mt-14 mx-auto max-w-6xl grid grid-cols-[40%_60%]'>
     <div>
+
+      <div className='sticky top-14 grid grid-rows[20%_40%_25%] h-[80vh]'>
+        <Meeting/>
+        <div className='flex flex-col gap-3 font-semibold'> 
+          <div><FontAwesomeIcon className="mr-2 text-pink-500" icon={faArrowRight}/>ปสน.</div>
+          <div>ตารางงาน</div>
+          <div>ประชาสัมพันธ์</div>
+          <div>โปรแกรม</div>
+          <div>สื่อ</div>         
+
       <div className='sticky top-14 grid grid-rows[35%_40%_25%] h-screen'>
         <div>
           <div class="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
@@ -32,8 +42,8 @@ function App() {
               
             </div>
           </div>
+
         </div>
-        <div>nav</div>
         <div>link</div>
       </div>  
     </div>
