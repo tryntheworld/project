@@ -3,7 +3,8 @@ import './App.css'
 import Meeting from './sections/Meeting'
 import Navbar from './sections/Navbar'
 import Contact from './sections/contact'
-import rightSections from './sections/rightSection'
+import Content from './sections/rightSection'
+
 function App() {
   return (
    <div className='mt-14 mx-auto max-w-6xl grid grid-cols-[40%_60%]'>
@@ -14,7 +15,7 @@ function App() {
         <Contact/> 
       </div>
     </div>
-
+     <Content/>
    </div>
    
   )
