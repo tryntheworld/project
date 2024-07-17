@@ -1,11 +1,16 @@
 const Calendar = () => {
  return (
-   <div className="bg-white bg-opacity-50 p-5 rounded-xl w-full shadow-xl">
+   <div className="bg-white bg-opacity-50 px-5 py-2 rounded-xl w-full shadow-xl">
 		<div>
-			<div className="-mx-4 sm:-mx-8 px-4 sm:px-8 py-4 overflow-x-auto">
-				<h3 className="ml-2 my-4 block text-xl font-semibold leading-snug tracking-normal text-cyan-900 antialiased">
-                    ตารางงานประกันสุขภาพ
-                </h3>
+			<div className="-mx-4 sm:-mx-8 px-4 sm:px-8 py-1 overflow-x-auto">
+			<div className="flex items-center">
+                    <div className="flex w-10 h-10 mb-5 mr-2">
+                        <img className="w-full h-full" src="../src/assets/calendar.png"alt="" />
+                    </div>
+                    <h5 className="mb-2 block text-xl font-semibold leading-snug tracking-normal text-cyan-900 antialiased">
+                        ตารางงานประกันสุขภาพ
+                    </h5>
+                </div>
 				<div className="inline-block min-w-full shadow rounded-lg overflow-hidden">
 					<table className="min-w-full leading-normal">
 						<thead>

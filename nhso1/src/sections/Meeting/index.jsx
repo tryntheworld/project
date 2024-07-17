@@ -7,9 +7,15 @@ const Meeting =() => {
         <div>
             <div className="relative flex w-96 flex-col rounded-xl bg-white bg-opacity-50 text-gray-700 shadow-xl">
                 <div className="p-6">
-                <h5 className="mb-2 block text-xl font-semibold leading-snug tracking-normal text-cyan-900 antialiased">
-                    {data.headname}
-                </h5>
+                <div className="flex items-center">
+                    <div className="flex w-10 h-10 mb-5 mr-2 animate-bounce">
+                        <img className="w-full h-full" src="../src/assets/income.png"alt="" />
+                    </div>
+                    <h5 className="mb-2 block text-xl font-semibold leading-snug tracking-normal text-cyan-900 antialiased">
+                        {data.headname}
+                    </h5>
+                </div>
+                
                 <p className="block text-base font-light leading-relaxed text-inherit antialiased">
                     {data.detail}
                 </p>
