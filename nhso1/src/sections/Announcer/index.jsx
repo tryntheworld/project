@@ -1,11 +1,11 @@
 const  Announce=() => {
  return (
          <div className="bg-white bg-opacity-50 px-5 py-2 rounded-xl w-full shadow-xl">
-               <div>
-                  <div className="-mx-4 sm:-mx-8 px-4 sm:px-8 py-1 overflow-x-auto">
+               <div className="mt-3 mb-5">
+                  
                   <div className="flex items-center">
                            <div className="flex w-10 h-10 mb-5 mr-2">
-                                 <img className="w-full h-full" src="../src/assets/announce.png"alt="" />
+                                 <img className="w-full h-full animate-bounce" src="../src/assets/announce.png"alt="" />
                            </div>
                            <h5 className="mb-2 block text-xl font-semibold leading-snug tracking-normal text-cyan-900 antialiased">
                                  จดหมายข่าวประชาสัมพันธ์
@@ -29,7 +29,7 @@ const  Announce=() => {
                               </div>
                            </div>
                         </div>
-                  </div>
+                 
                </div>
             </div>
             

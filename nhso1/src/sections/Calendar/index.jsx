@@ -1,11 +1,10 @@
 const Calendar = () => {
  return (
-   <div className="bg-white bg-opacity-50 px-5 py-2 rounded-xl w-full shadow-xl">
-		<div>
-			<div className="-mx-4 sm:-mx-8 px-4 sm:px-8 py-1 overflow-x-auto">
-			<div className="flex items-center">
+   <div className="bg-white bg-opacity-50 px-5 my-2 rounded-xl shadow-xl">
+		<div className="mt-5 mb-5">
+				<div className="flex items-center">
                     <div className="flex w-10 h-10 mb-5 mr-2">
-                        <img className="w-full h-full" src="../src/assets/calendar.png"alt="" />
+                        <img className="w-full h-full animate-bounce" src="../src/assets/calendar.png"alt="" />
                     </div>
                     <h5 className="mb-2 block text-xl font-semibold leading-snug tracking-normal text-cyan-900 antialiased">
                         ตารางงานประกันสุขภาพ
@@ -89,14 +88,9 @@ const Calendar = () => {
 									</span>
 								</td>
 							</tr>
-							
-							
-							
 						</tbody>
-					</table>
-					
-				</div>
-			</div>
+					</table>				
+				</div>		
 		</div>
 	</div>
  )
