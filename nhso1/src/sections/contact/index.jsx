@@ -1,8 +1,7 @@
 const Contact =() => {
         return (
-
             <div>
-                กลุ่มงานประกันสุขภาพ
+                <div><img src="../src/assets/banner.png" className="w-[80%]"/> </div>    
             </div>
         )
 }

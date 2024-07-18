@@ -2,7 +2,7 @@ import { data } from "../../Content/PsnMeet.js";
 const PsnMeet = () => {
     return(
         <div>
-            <div className="relative flex flex-col rounded-xl bg-white bg-opacity-50 text-gray-700 shadow-xl">
+            <div className="relative flex flex-col rounded-xl bg-white bg-opacity-50 text-cyan-900 shadow-xl">
                 <div className="p-6">
                 <div className="flex items-center">
                     <div className="flex w-10 h-10 mb-5 mr-2">
@@ -29,17 +29,18 @@ const PsnMeet = () => {
                     </p>
                     </div>
                     <div className="flex p-6 pt-0 gap-x-2">
-                        <button className="rounded-2xl bg-pink-500 px-5 py-4 text-sm font-bold text-white hover:text-gray-900 hover:shadow-[inset_13rem_0_0_0] hover:shadow-blue-400 duration-[500ms,700ms] transition-[color,box-shadow]">
+                        <button className="rounded-2xl bg-indigo-500 px-5 py-2  text-sm font-bold text-white hover:text-white hover:shadow-[inset_13rem_0_0_0] hover:shadow-gray-700 duration-[500ms,700ms] transition-[color,box-shadow]">
                         ลงทะเบียน
                         </button>
 
-                        <button className="rounded-2xl bg-pink-500 px-5 py-4 text-sm font-bold text-white hover:text-gray-900 hover:shadow-[inset_13rem_0_0_0] hover:shadow-blue-400 duration-[500ms,700ms] transition-[color,box-shadow]">
+                        <button className="rounded-2xl bg-indigo-500 px-5 py-2  text-sm font-bold text-white hover:text-white hover:shadow-[inset_13rem_0_0_0] hover:shadow-gray-700 duration-[500ms,700ms] transition-[color,box-shadow]">
                         เอกสารการประชุม
                         </button>
 
-                        <button className="rounded-2xl bg-pink-500 px-5 py-4 text-sm font-bold text-white hover:text-gray-900 hover:shadow-[inset_13rem_0_0_0] hover:shadow-blue-400 duration-[500ms,700ms] transition-[color,box-shadow]">
+                        <button className="rounded-2xl bg-indigo-500 px-5 py-2  text-sm font-bold text-white hover:text-white hover:shadow-[inset_13rem_0_0_0] hover:shadow-gray-700 duration-[500ms,700ms] transition-[color,box-shadow]">
                         Link ZOOM
-                        </button>              
+                        </button>
+                                      
                 </div>
                 
             </div>

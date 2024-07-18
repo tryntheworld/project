@@ -1,3 +1,6 @@
+import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 const  Announce=() => {
  return (
          <div className="bg-white bg-opacity-50 px-5 py-2 rounded-xl w-full shadow-xl">
@@ -20,12 +23,11 @@ const  Announce=() => {
                                  <h4 className="text-xl font-semibold text-cyan-900">โครงการอบรมบุคลากรเพื่อเพิ่มประสิทธิภาพ การตรวจสอบเวชระเบียนสำหรับหน่วยบริการในเครือข่ายสำนักงานสาธารณสุขจังหวัดเลย ปีงบประมาณ 2567</h4>
                                  <p className="text-gray-600">แพทย์หญิง ระพีพรรณ จันทร์อ้วน รองนายแพทย์สาธารณสุขจังหวัดเลย ด้านเวชกรรมป้องกัน 3 ได้รับมอบหมายจากนายแพทย์สาธารณสุขจังหวัดเลย ให้เกียรติมาเป็นประธานพิธีเปิดโครงการอบรมบุคลากรเพื่อเพิ่มประสิทธิภาพ..</p>
                               </div>
-                                    <a href="#"
-                                             className="relative inline-block px-3 py-1 font-semibold text-pink-900 leading-tight">
-                                             <span 
-                                                className="absolute inset-0 bg-pink-200 opacity-50 rounded-full"></span>
-                                 <span className="relative">อ่านต่อ..</span>
-                                 </a>
+                                    <button className="rounded-2xl bg-green-500 px-5 py-2 text-sm font-bold text-gray-900 opacity-80 
+                                    hover:text-white hover:shadow-[inset_13rem_0_0_0] hover:shadow-gray-700 duration-[500ms,700ms] transition-[color,box-shadow]">
+                                       อ่านต่อ
+                                    <span className='rotate-90 inline-block ml-2 text-sm'><FontAwesomeIcon className='animate-bounce' icon={faArrowDown}/> </span>
+                                    </button>
                               </div>
                            </div>
                         </div>

@@ -15,16 +15,16 @@ const Calendar = () => {
 						<thead>
 							<tr>
 								<th
-									className="px-5 py-3 border-b-2 border-pink-200 bg-pink-100 text-left text-sm font-semibold text-gray-600 uppercase tracking-wider">
+									className="px-5 py-3 border-b-2 border-pink-200 bg-pink-100 text-left text-sm font-semibold text-gray-600 tracking-wider">
 									ชื่องาน
 								</th>
 							
 								<th
-									className="px-5 py-3 border-b-2 border-pink-200 bg-pink-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
+									className="px-5 py-3 border-b-2 border-pink-200 bg-pink-100 text-left text-sm font-semibold text-gray-600  tracking-wider">
 									วันที่
 								</th>
 								<th
-									className="px-5 py-3 border-b-2 border-pink-200 bg-pink-100 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
+									className="px-5 py-3 border-b-2 border-pink-200 bg-pink-100 text-left text-sm font-semibold text-gray-600 tracking-wider">
 									สถานะ
 								</th>
 							</tr>
