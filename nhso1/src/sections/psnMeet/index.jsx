@@ -1,3 +1,5 @@
+import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { data } from "../../Content/PsnMeet.js";
 const PsnMeet = () => {
     return(
@@ -29,9 +31,11 @@ const PsnMeet = () => {
                     </p>
                     </div>
                     <div className="flex p-6 pt-0 gap-x-2">
-                        <button className="rounded-2xl bg-indigo-500 px-5 py-2  text-sm font-bold text-white hover:text-white hover:shadow-[inset_13rem_0_0_0] hover:shadow-gray-700 duration-[500ms,700ms] transition-[color,box-shadow]">
-                        ลงทะเบียน
-                        </button>
+                        <button className="rounded-2xl bg-gradient-to-br from-rose-500 to-violet-700 px-5 py-2 text-sm font-bold text-white opacity-80 
+                            hover:text-white hover:shadow-[inset_13rem_0_0_0] hover:shadow-gray-700 duration-[500ms,700ms] transition-[color,box-shadow]">
+                            ลงทะเบียน
+                            <span className='rotate-90 inline-block ml-2 text-sm'><FontAwesomeIcon className='animate-bounce' icon={faArrowDown}/> </span>
+                            </button>
 
                         <button className="rounded-2xl bg-indigo-500 px-5 py-2  text-sm font-bold text-white hover:text-white hover:shadow-[inset_13rem_0_0_0] hover:shadow-gray-700 duration-[500ms,700ms] transition-[color,box-shadow]">
                         เอกสารการประชุม
