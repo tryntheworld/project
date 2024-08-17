@@ -26,7 +26,9 @@ const Applications = () => {
                            </div>
                         </div>
                         <div className="mt-4 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-14 flex items-center sm:space-x-6 sm:pl-0 sm:mt-0">
-                           <button className="rounded-2xl bg-sky-400 px-5 py-2  text-sm font-bold text-gray-900 hover:text-white hover:shadow-[inset_13rem_0_0_0] hover:shadow-gray-700 duration-[500ms,700ms] transition-[color,box-shadow]">
+                           <button className="rounded-2xl bg-sky-400 px-5 py-2  text-sm font-bold text-gray-900
+                            hover:text-white hover:shadow-[inset_13rem_0_0_0] hover:shadow-gray-700 duration-[500ms,700ms] transition-[color,box-shadow]"
+                            onClick={() => window.open('https://jolopo-loei.moph.go.th/mrc/', '_blank', 'noopener,noreferrer')}>
                            <span className='inline-block mr-2 text-sm'><FontAwesomeIcon icon={faCircleDot}/> </span>
                               เข้าใช้งาน 
                            </button>
@@ -44,7 +46,9 @@ const Applications = () => {
                            </div>
                         </div>
                         <div className="mt-4 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-14 flex items-center sm:space-x-6 sm:pl-0 sm:mt-0">
-                           <button className="rounded-2xl bg-sky-400 px-5 py-2  text-sm font-bold text-gray-900 hover:text-white hover:shadow-[inset_13rem_0_0_0] hover:shadow-gray-700 duration-[500ms,700ms] transition-[color,box-shadow]">
+                           <button className="rounded-2xl bg-sky-400 px-5 py-2  text-sm font-bold text-gray-900
+                            hover:text-white hover:shadow-[inset_13rem_0_0_0] hover:shadow-gray-700 duration-[500ms,700ms] transition-[color,box-shadow]"
+                            onClick={() => window.open('https://jolopo-loei.moph.go.th/lim41/', '_blank', 'noopener,noreferrer')}>
                            <span className='inline-block mr-2 text-sm'><FontAwesomeIcon icon={faCircleDot}/> </span>
                               เข้าใช้งาน 
                            </button>
@@ -64,7 +68,9 @@ const Applications = () => {
                            </div>
                         </div>
                         <div className="mt-4 mr-0 mb-0 ml-0 pt-0 pr-0 pb-0 pl-14 flex items-center sm:space-x-6 sm:pl-0 sm:mt-0">
-                           <button className="rounded-2xl bg-sky-400 px-5 py-2  text-sm font-bold text-gray-900 hover:text-white hover:shadow-[inset_13rem_0_0_0] hover:shadow-gray-700 duration-[500ms,700ms] transition-[color,box-shadow]">
+                           <button className="rounded-2xl bg-sky-400 px-5 py-2  text-sm font-bold text-gray-900
+                            hover:text-white hover:shadow-[inset_13rem_0_0_0] hover:shadow-gray-700 duration-[500ms,700ms] transition-[color,box-shadow]"
+                            onClick={() => window.open('https://jolopo-loei.moph.go.th/pcbp/', '_blank', 'noopener,noreferrer')}>
                            <span className='inline-block mr-2 text-sm'><FontAwesomeIcon icon={faCircleDot}/> </span>
                               เข้าใช้งาน 
                            </button>

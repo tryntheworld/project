@@ -1,9 +1,9 @@
 import React from 'react';
-import moment from 'moment';
-import 'moment/locale/th';
+import { formatThaiDate } from '../../utils';
+
 
 const Calendar = ({ api_workList }) => {
-	moment.locale('th');
+	
 	return (
 		<div className="bg-white bg-opacity-50 px-5 my-2 rounded-xl shadow-xl">
 			<div className="mt-5 mb-5">
@@ -56,7 +56,7 @@ const Calendar = ({ api_workList }) => {
 								</td>
 								<td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
 									<p className="text-gray-900 whitespace-no-wrap">
-									{moment(val.date).format('DD MMMM YYYY')}
+									{formatThaiDate(val.date)}
 									</p>
 								</td>
 								<td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
