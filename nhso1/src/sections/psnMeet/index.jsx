@@ -18,12 +18,13 @@ const PsnMeet = ({api_psnList}) => {
                     {val.header}
                     </h5>
                 </div>
+                    <p className="block text-base font-bold leading-relaxed text-inherit antialiased mb-2">
+                        วันที่ : {formatThaiDate(val.date_meet)}
+                    </p>
                     <p className="block text-base font-light leading-relaxed text-inherit antialiased">
                         {val.content}
                     </p>
-                    <p className="block text-base font-light leading-relaxed text-inherit antialiased mb-2">
-                        วันที่ : {formatThaiDate(val.date_meet)}
-                    </p>
+                    
                     
                     <p className="block text-base font-light leading-relaxed text-inherit antialiased">
                         Zoom ID : {val.zoom_id}

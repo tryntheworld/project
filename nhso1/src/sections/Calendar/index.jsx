@@ -1,8 +1,21 @@
-import React from 'react';
+import React , { useState } from 'react';
 import { formatThaiDate } from '../../utils';
 
 
 const Calendar = ({ api_workList }) => {
+
+	const [todayDate, setTodayDate] = useState(new Date());
+
+		function isAfterToday(date) {
+			const today = new Date(todayDate.getTime()); // Clone todayDate to avoid mutation
+			today.setHours(0, 0, 0, 0); // Set time to midnight for accurate comparison
+
+			date = new Date(date); // Create new Date object for `date`
+			date.setHours(0, 0, 0, 0); // Set time to midnight for `date`
+
+			return date >= today; // Compare dates without time considerations
+		}
+
 	
 	return (
 		<div className="bg-white bg-opacity-50 px-5 my-2 rounded-xl shadow-xl">
@@ -60,7 +73,7 @@ const Calendar = ({ api_workList }) => {
 									</p>
 								</td>
 								<td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-								{val.status === 0 ? (
+								{isAfterToday(val.date) ? (
 									<span
 										className="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
 										<span aria-hidden

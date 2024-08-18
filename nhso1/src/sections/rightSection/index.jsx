@@ -2,6 +2,7 @@ import Announce from "../Announcer";
 import Calendar from "../Calendar";
 import PsnMeet from "../psnMeet";
 import Applications from "../Applications";
+import Multimedia from "../Multimedia";
 
 
 const Content =({ sendWorkList, sendNewsList, sendPsnList }) => { 
@@ -11,6 +12,7 @@ const Content =({ sendWorkList, sendNewsList, sendPsnList }) => {
       <Calendar api_workList={sendWorkList}/>
       <Announce api_newsList={sendNewsList}/>
       <Applications/>
+      <Multimedia/>
     </div>
   )
 }

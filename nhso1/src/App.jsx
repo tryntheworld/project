@@ -13,25 +13,30 @@ function App() {
         const [workList,setWorklist] = useState([]);
         const [newsList, setNewsList] = useState([]);
         const [psnList, setPsnList] = useState([]);
+        const [meetList, setMeetList] = useState([]);
 
         useEffect(() => {
-          axios.get('http://localhost/php-api/work_api.php').then((workList) => setWorklist(workList.data));
+          axios.get('https://jolopo-loei.moph.go.th/php-api/work_api.php').then((workList) => setWorklist(workList.data));
         }, []);
 
         useEffect(() => {
-          axios.get('http://localhost/php-api/news_api.php').then((newsList) => setNewsList(newsList.data));
+          axios.get('https://jolopo-loei.moph.go.th/php-api/news_api.php').then((newsList) => setNewsList(newsList.data));
         }, []);
 
         useEffect(() => {
-          axios.get('http://localhost/php-api/psn_api.php').then((psnList) => setPsnList(psnList.data));
+          axios.get('https://jolopo-loei.moph.go.th/php-api/psn_api.php').then((psnList) => setPsnList(psnList.data));
         }, []);
-        console.log(psnList);		
+
+        useEffect(() => {
+          axios.get('https://jolopo-loei.moph.go.th/php-api/meet_api.php').then((meetList) => setMeetList(meetList.data));
+        }, []);
+		
   return (
 
       <div className='mt-14 mx-auto max-w-6xl grid grid-cols-[40%_60%]'>
         <div>
           <div className='sticky top-14 grid grid-rows[20%_40%_25%] h-[100vh]'>
-            <Meeting/>
+            <Meeting api_meetList={meetList}/>
             <Navbar/>  
             <Contact/> 
           </div>
