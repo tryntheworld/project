@@ -22,7 +22,7 @@ const Calendar = ({ api_workList }) => {
 			<div className="mt-5 mb-5">
 				<div className="flex items-center">
 					<div className="flex w-10 h-10 mb-5 mr-2">
-						<img className="w-full h-full animate-bounce" src="../src/assets/calendar.png"alt="" />
+						<img className="w-full h-full animate-bounce" src="../src/images/calendar.png"alt="" />
 					</div>
 					<h5 className="mb-2 block text-xl font-semibold leading-snug tracking-normal text-cyan-900 antialiased">
 						ตารางงานประกันสุขภาพ
@@ -56,7 +56,7 @@ const Calendar = ({ api_workList }) => {
 									<div className="flex items-center">
 										<div className="flex-shrink-0 w-10 h-10">
 											<img className="w-full h-full rounded-full"
-											 src={`../src/assets/${val.person}.jpg`} 
+											 src={`../src/images/${val.person}.jpg`} 
 											 alt={val.person}
  											/>
 										</div>
