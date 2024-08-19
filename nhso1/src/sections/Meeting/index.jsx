@@ -1,7 +1,6 @@
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { formatThaiDate } from "../../utils";
-
 const Meeting =({api_meetList}) => {
     return (
                 <div>
