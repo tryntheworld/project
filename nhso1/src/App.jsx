@@ -33,15 +33,18 @@ function App() {
 		
   return (
 
-      <div className='mt-14 mx-auto max-w-6xl grid grid-cols-[40%_60%]'>
+      <div className='mt-14 mx-auto max-w-6xl grid lg:grid-cols-[40%_60%] px-5 mb-14'>
         <div>
-          <div className='sticky top-14 grid grid-rows[20%_40%_25%] h-[100vh]'>
+          <div className='px-5 sticky top-14 grid grid-rows[20%_40%_25%]'>
             <Meeting api_meetList={meetList}/>
             <Navbar/>  
             <Contact/> 
           </div>
         </div>
-        <Content sendWorkList={workList} sendNewsList={newsList} sendPsnList={psnList}/>
+        <div>
+          <Content sendWorkList={workList} sendNewsList={newsList} sendPsnList={psnList}/>
+        </div>
+        
       </div>
 
   )

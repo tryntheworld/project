@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const  Announce=({ api_newsList }) => {
  return (
-         <div className="bg-white bg-opacity-50 px-5 py-2 rounded-xl w-full shadow-xl">
+         <div className="bg-white bg-opacity-50 px-5 py-2 rounded-xl w-full shadow-xl" id="Announcer-section">
                <div className="mt-3 mb-5">
                
                   <div className="flex items-center">

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Applications = () => {
  return (     
             <div>
-            <div className="relative flex flex-col rounded-xl bg-white bg-opacity-50 text-gray-700 shadow-xl">
+            <div className="relative flex flex-col rounded-xl bg-white bg-opacity-50 text-gray-700 shadow-xl" id="Application-section">
                <div className="p-6">
                   <div className="flex items-center">
                      <div className="flex w-10 h-10 mb-2 mr-2">

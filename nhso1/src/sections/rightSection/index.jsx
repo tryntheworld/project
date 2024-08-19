@@ -7,7 +7,7 @@ import Multimedia from "../Multimedia";
 
 const Content =({ sendWorkList, sendNewsList, sendPsnList }) => { 
   return (
-    <div className="grid gap-y-4">
+    <div className="grid gap-y-4 px-5">
       <PsnMeet api_psnList={sendPsnList}/>
       <Calendar api_workList={sendWorkList}/>
       <Announce api_newsList={sendNewsList}/>

@@ -6,7 +6,7 @@ const Meeting =({api_meetList}) => {
     return (
                 <div>
                     {api_meetList.map((val) => (
-                            <div className="relative flex w-96 flex-col rounded-xl bg-white bg-opacity-50 text-gray-700 shadow-xl" key={val.id}>
+                            <div className="px-5 flex-col rounded-xl bg-white bg-opacity-50 text-gray-700 shadow-xl" key={val.id}>
                                 <div className="p-6">
                                     <div className="flex items-center">
                                         <div className="flex w-10 h-10 mb-5 mr-2 animate-bounce">
