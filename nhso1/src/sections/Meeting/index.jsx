@@ -1,6 +1,7 @@
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { formatThaiDate } from "../../utils";
+
 const Meeting =({api_meetList}) => {
     return (
                 <div>
@@ -9,7 +10,7 @@ const Meeting =({api_meetList}) => {
                                 <div className="p-6">
                                     <div className="flex items-center">
                                         <div className="flex w-10 h-10 mb-5 mr-2 animate-bounce">
-                                            <img className="w-full h-full" src="../src/images/income.png"alt="" />
+                                            <img className="w-full h-full" src="../assets/income.png" alt="" />
                                         </div>
                                         <h5 className="mb-2 block text-xl font-semibold leading-snug tracking-normal text-cyan-900 antialiased">
                                             {val.header}

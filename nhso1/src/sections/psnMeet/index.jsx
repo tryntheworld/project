@@ -1,6 +1,8 @@
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { formatThaiDate } from "../../utils";
+
+
 const PsnMeet = ({api_psnList}) => {
     return(
         
@@ -11,7 +13,7 @@ const PsnMeet = ({api_psnList}) => {
                 <div className="flex items-center">
                     <div className="flex w-10 h-10 mb-5 mr-2">
 											<img className="w-full h-full animate-bounce"
-                                                src="../src/images/meet.png"
+                                                src="../assets/logo.png"
                                                 alt="" />
                                         </div>
                     <h5 className="mb-2 block text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
