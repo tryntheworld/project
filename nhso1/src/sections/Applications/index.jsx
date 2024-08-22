@@ -1,5 +1,10 @@
 import { faCircleDot } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import logo from "/images/meet.png";
+import mrc from "/images/mrc.jpg";
+import lim41 from "/images/lim41.jpg";
+import pcbp from "/images/pcbp.jpg";
+
 
 
 const Applications = () => {
@@ -9,7 +14,7 @@ const Applications = () => {
                <div className="p-6">
                   <div className="flex items-center">
                      <div className="flex w-10 h-10 mb-2 mr-2">
-                           <img className="w-full h-full animate-bounce" src={`/assets/meet.png`}  alt="" />
+                           <img className="w-full h-full animate-bounce" src={logo}  alt="" />
                      </div>
                      <h5 className="mb-2 block text-xl font-semibold leading-snug tracking-normal text-cyan-900 antialiased">
                            โปรแกรมกลุ่มงานประกันสุขภาพ
@@ -20,7 +25,7 @@ const Applications = () => {
                      <div className="sm:flex sm:items-center sm:justify-between sm:space-x-5">
                         <div className="flex items-center flex-1 min-w-0">
                            <img
-                              src="/assets/mrc.png"  className="flex-shrink-0 object-cover rounded-full w-12 h-12"/>
+                              src={mrc}  className="flex-shrink-0 object-cover rounded-full w-12 h-12"/>
                            <div className="mt-0 mr-0 mb-0 ml-4 flex-1 min-w-0">
                               <p className="text-lg font-bold text-gray-800 truncate">Monitoring Revenue Collect</p>
                               <p className="text-gray-600 text-md">โปรแกรมติดตามการเรียกเก็บสำหรับผู้บริหาร.</p>
@@ -40,7 +45,7 @@ const Applications = () => {
                      <div className="sm:flex sm:items-center sm:justify-between sm:space-x-5">
                         <div className="flex items-center flex-1 min-w-0">
                            <img
-                              src="/assets/lim41.png"  className="flex-shrink-0 object-cover rounded-full w-12 h-12"/>
+                              src={lim41}  className="flex-shrink-0 object-cover rounded-full w-12 h-12"/>
                            <div className="mt-0 mr-0 mb-0 ml-4 flex-1 min-w-0">
                               <p className="text-lg font-bold text-gray-800 truncate">M.41 data collect and monitoring</p>
                               <p className="text-gray-600 text-md">โปรแกรมติดตามสถานะการยื่นคำร้อง ม.41 จังหวัดเลย</p>
@@ -62,7 +67,7 @@ const Applications = () => {
                      <div className="sm:flex sm:items-center sm:justify-between sm:space-x-5">
                         <div className="flex items-center flex-1 min-w-0">
                            <img
-                              src="/assets/pcbp.png" className="flex-shrink-0 object-cover rounded-full w-12 h-12"/>
+                              src={pcbp} className="flex-shrink-0 object-cover rounded-full w-12 h-12"/>
                            <div className="mt-0 mr-0 mb-0 ml-4 flex-1 min-w-0">
                               <p className="text-lg font-bold text-gray-800 truncate">Payment and medical services billing check</p>
                               <p className="text-gray-600 text-md"> โปรแกรมตรวจสอบการเรียกเก็บและการจ่ายค่าบริการทางการแพทย์.</p>

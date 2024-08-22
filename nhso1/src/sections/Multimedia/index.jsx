@@ -1,6 +1,7 @@
 import { faEye } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import logo from "/images/multi.png";
+import youtube from "/images/youtube.png";
 
 const Multimedia = () => {
  return (     
@@ -9,7 +10,7 @@ const Multimedia = () => {
                <div className="p-6">
                   <div className="flex items-center">
                      <div className="flex w-10 h-10 mb-2 mr-2">
-                           <img className="w-full h-full animate-bounce" src="/assets/multi.png" alt="" />
+                           <img className="w-full h-full animate-bounce" src={logo} alt="" />
                      </div>
                      <h5 className="mb-2 block text-xl font-semibold leading-snug tracking-normal text-cyan-900 antialiased">
                            สื่อมัลติมีเดีย
@@ -20,7 +21,7 @@ const Multimedia = () => {
                      <div className="sm:flex sm:items-center sm:justify-between sm:space-x-5">
                         <div className="flex items-center flex-1 min-w-0">
                            <img
-                              src="/assets/youtube.png" className="flex-shrink-0 object-cover rounded-full w-12 h-12"/>
+                              src={youtube} className="flex-shrink-0 object-cover rounded-full w-12 h-12"/>
                            <div className="mt-0 mr-0 mb-0 ml-4 flex-1 min-w-0">
                               <p className="text-lg font-bold text-gray-800 truncate">โครงการอบรมเพิ่มประสิทธิภาพเวชระเบียน 67</p>
                               <p className="text-gray-600 text-md">ไลฟ์สด โครงการอบรมบุคลากรเพิ่มประสิทธิภาพเวชระเบียน</p>
@@ -40,7 +41,7 @@ const Multimedia = () => {
                      <div className="sm:flex sm:items-center sm:justify-between sm:space-x-5">
                         <div className="flex items-center flex-1 min-w-0">
                            <img
-                              src="/assets/youtube.png" className="flex-shrink-0 object-cover rounded-full w-12 h-12"/>
+                              src={youtube} className="flex-shrink-0 object-cover rounded-full w-12 h-12"/>
                            <div className="mt-0 mr-0 mb-0 ml-4 flex-1 min-w-0">
                               <p className="text-lg font-bold text-gray-800 truncate">โครงการอบรมเพิ่มพัฒนาศักยภาพการเงินการคลัง 67</p>
                               <p className="text-gray-600 text-md">โครงการอบรมเพิ่มพัฒนาศักยภาพการเงินการคลัง 67</p>
@@ -61,7 +62,7 @@ const Multimedia = () => {
                      <div className="sm:flex sm:items-center sm:justify-between sm:space-x-5">
                         <div className="flex items-center flex-1 min-w-0">
                            <img
-                              src="/assets/youtube.png" className="flex-shrink-0 object-cover rounded-full w-12 h-12"/>
+                              src={youtube} className="flex-shrink-0 object-cover rounded-full w-12 h-12"/>
                            <div className="mt-0 mr-0 mb-0 ml-4 flex-1 min-w-0">
                               <p className="text-lg font-bold text-gray-800 truncate">คู่มือการใช้งานโปรแกรม Lim41</p>
                               <p className="text-gray-600 text-md">วีดีโอคู่มือการใช้งานโปรแกรม Lim41</p>
