@@ -30,7 +30,7 @@ const  Announce=({ api_newsList }) => {
                                     <button className="rounded-2xl bg-green-500 px-5 py-2 text-sm font-bold text-gray-900 opacity-80 
                                     hover:text-white hover:shadow-[inset_13rem_0_0_0] hover:shadow-gray-700 duration-[500ms,700ms] transition-[color,box-shadow]"
                                     onClick={() => {
-                                       const imageUrl = `${window.location.origin}/src/images/${val.id}.jpg`;
+                                       const imageUrl = `${window.location.origin}/nhso/images/${val.id}.jpg`;
                                        window.open(imageUrl, '_blank', 'noopener,noreferrer');
                                      }}>
                                        อ่านต่อ

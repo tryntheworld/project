@@ -94,7 +94,7 @@ const Calendar = ({ api_workList }) => {
 										className="relative inline-block px-3 py-1 font-semibold text-red-900 leading-tight">
 										<span aria-hidden
 											className="absolute inset-0 bg-red-200 opacity-50 rounded-full"></span>
-									<span className="relative">ปิดงาน</span>
+									<span className="relative">ปิด</span>
 									</span>
 								)}
 								</td>
